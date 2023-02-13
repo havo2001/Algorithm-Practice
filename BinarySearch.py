@@ -10,12 +10,14 @@ def binarySearch(nums, target):
             left = middle + 1
         else:
             right = middle - 1
+        if left == right and nums[left] < target:
+            return left + 1
     return -1
 
 
 
 
 
-nums = [12]
-target = 12
+nums = [1, 3, 5, 6]
+target = 7
 print(binarySearch(nums, target))
