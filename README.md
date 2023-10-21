@@ -1,2 +1,4 @@
 # AlgorithmPractice
-Repository for practising algorithms
+Repository for practising algorithms.
+* Problems from CODEFORCES
+
